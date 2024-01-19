@@ -1,4 +1,4 @@
-all: libl1.dll
+all: libl1.a
 
 l1.o: l1.cpp
 	g++ -fPIC -c l1.cpp
